@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:inter_transactions
+    username: sa
+    password: sa
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    generateDdl: true
+    hibernate:
+      ddlAuto: update
+    properties:
+      hibernate:
+        showSql: true
+        useSqlComments: true
+        formatSql: true
+  h2:
+    console.enabled: true
+
