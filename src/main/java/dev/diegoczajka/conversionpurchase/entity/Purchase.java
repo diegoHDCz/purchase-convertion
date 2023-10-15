@@ -1,14 +1,13 @@
 package dev.diegoczajka.conversionpurchase.entity;
 
-import dev.diegoczajka.conversionpurchase.model.RegisterPurchaseData;
+import dev.diegoczajka.conversionpurchase.model.purchases.RegisterPurchaseData;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Type;
-
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -26,7 +25,7 @@ public class Purchase {
     private String description;
 
 
-    private LocalDateTime transactionDate;
+    private LocalDate transactionDate;
 
 
     private BigDecimal purchaseAmount;
@@ -35,7 +34,7 @@ public class Purchase {
 
         this.id =  UUID.randomUUID();
         this.description = purchaseData.description();
-        this.transactionDate = LocalDateTime.now();
+        this.transactionDate = LocalDate.now();
         this.purchaseAmount =purchaseData. purchaseAmount();
     }
 
