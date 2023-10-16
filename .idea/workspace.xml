@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ece53045-781b-475a-9aaa-2773897d93ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/exchanges/ExchangeDetailData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/exchanges/ExchangePurchaseDetailData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/exchanges/validation/ValidateExchangeValidDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/exchanges/validation/ValidatePurchaseExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/service/ExchangeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/service/ExchangeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/utils/ValidCountryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/controller/PurchaseControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/model/exchanges/validation/ValidatePurchaseExchangeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/model/purchases/PurchaseDetailDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/service/ExchangeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/service/PurchaseServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/controller/PurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/controller/PurchaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/entity/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/entity/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/PurchaseDetailData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/purchases/PurchaseDetailData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/RegisterPurchaseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/purchases/RegisterPurchaseData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/service/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/service/PurchaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/service/PurchaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/service/PurchaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/exchanges/validation/ValidateExchangeValidDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/exchanges/validation/ValidatePurchaseExchangeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/purchases/RegisterPurchaseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/model/purchases/RegisterPurchaseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/repository/PurchaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/repository/PurchaseRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="Record" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -61,6 +56,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/workspace/conversionpurchase&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
@@ -73,23 +70,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\conversionpurchase\src\main\java\dev\diegoczajka\conversionpurchase\config\exception" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.diegoczajka.conversionpurchase.service" />
+      <recent name="dev.diegoczajka.conversionpurchase.model.exchanges.validation" />
+      <recent name="dev.diegoczajka.conversionpurchase.controller" />
+      <recent name="dev.diegoczajka.conversionpurchase.model.purchases" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ConversionpurchaseApplication">
-    <configuration name="ConversionpurchaseApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.ConversionpurchaseApplication" />
-      <module name="conversionpurchase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.diegoczajka.conversionpurchase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExchangeServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.service.ExchangeServiceImpl" />
+  <component name="RunManager" selected="JUnit.PurchaseServiceTest.getOneById">
+    <configuration name="ExchangeServiceTest.getByCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversionpurchase" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +89,31 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dev.diegoczajka.conversionpurchase.service" />
+      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.service.ExchangeServiceTest" />
+      <option name="METHOD_NAME" value="getByCountry" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.service.PurchaseServiceImpl" />
+    <configuration name="PurchaseControllerTest.detail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="conversionpurchase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.diegoczajka.conversionpurchase.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.diegoczajka.conversionpurchase.controller" />
+      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.controller.PurchaseControllerTest" />
+      <option name="METHOD_NAME" value="detail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseServiceTest.getOneById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversionpurchase" />
       <extension name="coverage">
         <pattern>
@@ -110,43 +121,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dev.diegoczajka.conversionpurchase.service" />
+      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.service.PurchaseServiceTest" />
+      <option name="METHOD_NAME" value="getOneById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidCountryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.utils.ValidCountryString" />
+    <configuration name="PurchaseServiceTest.registerPurchase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversionpurchase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.diegoczajka.conversionpurchase.utils.*" />
+          <option name="PATTERN" value="dev.diegoczajka.conversionpurchase.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dev.diegoczajka.conversionpurchase.service" />
+      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.service.PurchaseServiceTest" />
+      <option name="METHOD_NAME" value="registerPurchase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateExchangeValidDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.model.exchanges.validation.ValidateExchangeValidDate" />
+    <configuration name="ValidatePurchaseExchangeTest.validateException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversionpurchase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.diegoczajka.conversionpurchase.model.exchanges.*" />
+          <option name="PATTERN" value="dev.diegoczajka.conversionpurchase.model.exchanges.validation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dev.diegoczajka.conversionpurchase.model.exchanges.validation" />
+      <option name="MAIN_CLASS_NAME" value="dev.diegoczajka.conversionpurchase.model.exchanges.validation.ValidatePurchaseExchangeTest" />
+      <option name="METHOD_NAME" value="validateException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConversionpurchaseApplication" />
-        <item itemvalue="Application.ValidateExchangeValidDate" />
-        <item itemvalue="Application.PurchaseServiceImpl" />
-        <item itemvalue="Application.ExchangeServiceImpl" />
-        <item itemvalue="Application.ValidCountryString" />
+        <item itemvalue="JUnit.PurchaseServiceTest.getOneById" />
+        <item itemvalue="JUnit.PurchaseServiceTest.registerPurchase" />
+        <item itemvalue="JUnit.ExchangeServiceTest.getByCountry" />
+        <item itemvalue="JUnit.ValidatePurchaseExchangeTest.validateException" />
+        <item itemvalue="JUnit.PurchaseControllerTest.detail" />
       </list>
     </recent_temporary>
   </component>
@@ -160,5 +181,41 @@
       <updated>1697331007867</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/controller/PurchaseControllerTest.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/controller/PurchaseController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/controller/PurchaseControllerTest.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/diegoczajka/conversionpurchase/service/ExchangeServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/service/ExchangeServiceTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/diegoczajka/conversionpurchase/service/PurchaseServiceTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

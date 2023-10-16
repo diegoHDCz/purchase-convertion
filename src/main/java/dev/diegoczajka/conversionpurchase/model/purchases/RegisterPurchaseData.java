@@ -19,4 +19,5 @@ public record RegisterPurchaseData(
         @Positive(message = "Purchase amount must be a positive value")
         BigDecimal purchaseAmount
 ) {
+
 }

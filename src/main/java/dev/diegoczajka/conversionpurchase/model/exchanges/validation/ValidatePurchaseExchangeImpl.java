@@ -11,7 +11,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Locale;
 
 @Component
-public class ValidateExchangeValidDate implements ValidatePurchaseExchange {
+public class ValidatePurchaseExchangeImpl implements ValidatePurchaseExchange {
     @Override
     public void validate(ExchangeDetailData data, Purchase purchase) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd", Locale.US);
